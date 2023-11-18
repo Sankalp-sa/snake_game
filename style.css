@@ -1,0 +1,35 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+canvas {
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
